@@ -1,0 +1,27 @@
+﻿@using TravelTripProject.Models.Class
+@model List<AdresBlog>
+@{
+    ViewBag.Title = "ContactListesi";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>İletişim Bilgi Listesi</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>#</th>
+        <th>Başlık</th>
+        <th>Açıklama</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.ID</td>
+            <td>@x.Baslik</td>
+            <td>@x.Aciklama</td>
+            <td><a href="/Admin/UpdateContact/@x.ID" class="btn btn-outline-success">Güncelle</a></td>
+        </tr>
+    }
+</table>

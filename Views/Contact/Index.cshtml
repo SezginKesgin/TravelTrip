@@ -1,0 +1,39 @@
+﻿@using TravelTripProject.Models.Class
+@model List<AdresBlog>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+
+<!DOCTYPE HTML>
+<html>
+<body>
+    <div class="contact">
+        <div class="wrap">
+            <div class="contact-top">
+                <h3>İletişim</h3>
+                @foreach (var x in Model)
+                {
+                    <p>@x.Aciklama</p>
+
+                    <div class="contact-left">
+                        <div class="contact-add">
+                            <h3>@x.Baslik</h3>
+                            <p> @x.AdresAcik</p>
+                            <p>Telefon: @x.Telefon</p>
+                            <p>Email: <a href="mailto:signup@gmail.com">@x.Mail</a></p>
+                            <p>Harita: <iframe src="@x.Konum" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </p>
+
+                        </div>
+                    </div>
+
+                }
+
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</body>
+</html>

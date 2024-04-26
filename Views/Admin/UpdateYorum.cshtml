@@ -1,0 +1,25 @@
+﻿@model TravelTripProject.Models.Class.Yorumlar
+@{
+    ViewBag.Title = "UpdateYorum";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yorum Güncelleme Sayfası</h2>
+
+<form method="post">
+
+    @Html.Label("Id")
+    @Html.TextBoxFor(x => x.ID, new {@class="form-control", @readonly="readonly"})
+    <br />
+    @Html.Label("Kullanıcı Adı")
+    @Html.TextBoxFor(x => x.KullaniciAdi, new { @class = "form-control" })
+    <br />
+    @Html.Label("Mail")
+    @Html.TextBoxFor(x => x.Mail, new { @class = "form-control" })
+    <br />
+    @Html.Label("Yorum")
+    @Html.TextAreaFor(x => x.Yorum,10,1, new { @class = "form-control" })
+    <br />
+
+    <button class="btn btn-outline-info">Yorum Güncelle</button>
+</form>

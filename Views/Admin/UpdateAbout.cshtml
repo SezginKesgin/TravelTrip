@@ -1,0 +1,22 @@
+﻿@model TravelTripProject.Models.Class.Hakkimizda
+@{
+    ViewBag.Title = "UpdateAbout";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Hakkımızda Güncelleme Sayfası</h2>
+
+<form method="post">
+    @Html.Label("Id")
+    @Html.TextBoxFor(x => x.ID, new { @class = "form-control", @readonly = "readonly" })
+    <br />
+    @Html.Label("Açkıklama")
+    @Html.TextAreaFor(x => x.Aciklama,10,1, new { @class = "form-control" })
+    <br />
+    @Html.Label("Görsel Url")
+    @Html.TextBoxFor(x => x.ResimUrl, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-outline-primary">Hakkımızda Güncelle</button>
+</form>
+<br />
+<br />

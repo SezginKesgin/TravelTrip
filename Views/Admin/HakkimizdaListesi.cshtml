@@ -1,0 +1,30 @@
+﻿@using TravelTripProject.Models.Class
+@model List<Hakkimizda>
+@{
+    ViewBag.Title = "HakkimizdaListesi";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Hakkimizda Listesi</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>#</th>
+        <th>Açıklama</th>
+        <th>Resim Url</th>
+        <th>Güncelle</th>
+    </tr>
+   @foreach(var x in Model)
+    {
+        <tr>
+            <td>@x.ID</td>
+            <td>@x.Aciklama.Substring(0,100)</td>
+            <td>@x.ResimUrl.Substring(8,30)</td>
+            <td><a href="/Admin/UpdateAbout/@x.ID" class="btn btn-outline-success">Güncelle</a></td>
+
+        </tr>
+    }
+
+</table>
+
