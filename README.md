@@ -1,4 +1,4 @@
-# TravelTrip (Tatil seyahat sitesi projesi)
+# TravelTrip (Tatil seyahat blog sitesi projesi)
 Bu proje, seyahat planlaması ve rehberliği için .NET MVC kullanılarak geliştirilmiş bir web uygulamasını içerir. Bu uygulama, kullanıcıların seyahat rotalarını planlamalarına, yerel otelleri bulmalarına ve gezilecek yerler hakkında bilgi edinmelerine olanak tanır.
 Kişisel blog tarzında paylaşımlar yapılan, kişinin seyahat ettiği konumlar hakkında bilgi paylaştığı bir blog sitesi.
 
