@@ -44,3 +44,7 @@ TravelTrip sitesinin Hakkımızda sayfasındaki bilgileri bu alandan güncelleye
 
 TravelTrip sitesinin İletişim sayfasındaki bilgileri bu alandan güncelleyebilir, gerekli düzenlemeleri yapabilir.
 
+## Proje Görsel:
+
+![Screenshot_1](https://github.com/SezginKesgin/TravelTrip/assets/139621631/5e2e817f-b35b-45ee-a389-bb0a5fb81508)
+
