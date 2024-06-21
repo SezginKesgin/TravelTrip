@@ -47,4 +47,9 @@ TravelTrip sitesinin İletişim sayfasındaki bilgileri bu alandan güncelleyebi
 ## Proje Görsel:
 
 ![Screenshot_1](https://github.com/SezginKesgin/TravelTrip/assets/139621631/5e2e817f-b35b-45ee-a389-bb0a5fb81508)
+![traveltrip](https://github.com/SezginKesgin/TravelTrip/assets/139621631/9111b13a-a467-4e6a-ac2a-3bcae580508d)
+![traveltrip2](https://github.com/SezginKesgin/TravelTrip/assets/139621631/f168bdfa-7335-4a4b-bbb3-2fbe2c5fc8bb)
+![traveltrip4](https://github.com/SezginKesgin/TravelTrip/assets/139621631/fc8c8879-acca-4a88-9c11-7becb642e8e0)
+![traveltrip3](https://github.com/SezginKesgin/TravelTrip/assets/139621631/2a930224-9eaf-4b78-a900-fd84ce7f3d85)
+
 
