@@ -51,5 +51,6 @@ TravelTrip sitesinin İletişim sayfasındaki bilgileri bu alandan güncelleyebi
 ![traveltrip2](https://github.com/SezginKesgin/TravelTrip/assets/139621631/f168bdfa-7335-4a4b-bbb3-2fbe2c5fc8bb)
 ![traveltrip4](https://github.com/SezginKesgin/TravelTrip/assets/139621631/fc8c8879-acca-4a88-9c11-7becb642e8e0)
 ![traveltrip3](https://github.com/SezginKesgin/TravelTrip/assets/139621631/2a930224-9eaf-4b78-a900-fd84ce7f3d85)
+![Screenshot_1](https://github.com/SezginKesgin/TravelTrip/assets/139621631/2307e36b-ce01-4b25-b147-34a417ded9df)
 
 
